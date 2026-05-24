@@ -1,0 +1,143 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Arial",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#0D6EFD",
+    "secondary": "#6C757D",
+    "accent": "#EE292B",
+    "background": "#FFFFFF",
+    "textPrimary": "#EE292B",
+    "link": "#EE292B"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Arial",
+      "heading": "Arial"
+    },
+    "fontStacks": {
+      "heading": [
+        "Arial",
+        "sans-serif"
+      ],
+      "body": [
+        "Arial",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Arial",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "14px",
+      "h2": "35px",
+      "body": "20px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "5px"
+  },
+  "components": {
+    "input": {
+      "background": "#FFFFFF",
+      "textColor": "#000000",
+      "borderColor": "#C1902E",
+      "borderRadius": "13px",
+      "borderRadiusCorners": {
+        "topLeft": "13px",
+        "topRight": "13px",
+        "bottomRight": "13px",
+        "bottomLeft": "13px"
+      },
+      "shadow": "none"
+    },
+    "buttonPrimary": {
+      "background": "#EE292B",
+      "textColor": "#FFFFFF",
+      "borderColor": "#EE292B",
+      "borderRadius": "6px",
+      "borderRadiusCorners": {
+        "topLeft": "6px",
+        "topRight": "6px",
+        "bottomRight": "6px",
+        "bottomLeft": "6px"
+      },
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "#FFFFFF",
+      "textColor": "#EE292B",
+      "borderColor": "#EE292B",
+      "borderRadius": "6px",
+      "borderRadiusCorners": {
+        "topLeft": "6px",
+        "topRight": "6px",
+        "bottomRight": "6px",
+        "bottomLeft": "6px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "https://www.chinabank.ph/view-file/header/ATqwC37k19R1hWZ6Ch4cCH618sQEox-metaQ0JDX05FV19MT0dPX1dISVRFX2Nyb3BwZWQucG5n-.png",
+    "favicon": null,
+    "ogImage": null,
+    "logoHref": "https://www.chinabank.ph",
+    "logoAlt": "File saved at: attached_assets/logoAlt.html"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "Selected #0 because it is the only visible candidate, matches the brand name 'Chinabank', and links to the homepage.",
+    "confidence": 0.9,
+    "source": "llm"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 2,
+      "text": "I Accept",
+      "reasoning": "Button #2 ('I Accept') uses the vibrant brand color #EE292B, which is a strong indicator of a primary call-to-action, especially given its decisive text."
+    },
+    "secondary": {
+      "index": 5,
+      "text": "Learn More",
+      "reasoning": "Button #5 ('Learn More') has a different background color (#FFFFFF) and serves as a secondary action with a less urgent tone."
+    },
+    "confidence": 0.95
+  },
+  "personality": {
+    "tone": "professional",
+    "energy": "medium",
+    "targetAudience": "banking customers"
+  },
+  "designSystem": {
+    "framework": "bootstrap",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.95,
+    "colors": 0.9,
+    "overall": 0.925
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 0,
+        "selectedLogoReasoning": "Selected #0 because it is the only visible candidate, matches the brand name 'Chinabank', and links to the homepage.",
+        "confidence": 0.9
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}

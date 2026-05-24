@@ -1,0 +1,13 @@
+packages:
+  "framer-motion": "For page transitions, section scroll reveals, and elegant UI animations"
+  "@hookform/resolvers": "For Zod validation integration with React Hook Form"
+  "react-hook-form": "For robust contact and lead generation forms"
+
+images:
+  - path: "artifacts/grover-consult/public/images/hero-bg.png"
+    description: "Abstract dark charcoal corporate background with very subtle, elegant geometric lines and a hint of soft gold lighting. Deep, premium, executive aesthetic."
+    aspect_ratio: "16:9"
+
+notes:
+  - The API endpoints for leads and insights are available through the generated orval hooks in @workspace/api-client-react.
+  - The site uses anchor links for single-page navigation to sections like #services, #team, #contact.
