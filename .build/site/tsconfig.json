@@ -1,0 +1,49 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "include": [
+    "app/**/*",
+    "next-env.d.ts",
+    "src/**/*",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "**/*.test.ts"
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+    "jsx": "preserve",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "resolveJsonModule": true,
+    "moduleResolution": "bundler",
+    "types": [
+      "node"
+    ],
+    "allowJs": true,
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "react-helmet-async": [
+        "./src/compat/react-helmet-async.tsx"
+      ],
+      "wouter": [
+        "./src/compat/wouter.tsx"
+      ]
+    },
+    "strict": false,
+    "esModuleInterop": true
+  }
+}
